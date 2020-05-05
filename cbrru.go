@@ -1,5 +1,6 @@
 package cbrru
 
+// https://www.onlinetool.io/xmltogo/
 
 import (
 	"encoding/xml"
