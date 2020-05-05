@@ -1,10 +1,13 @@
 package cbrru
 
-// https://www.onlinetool.io/xmltogo/
+//  https://www.onlinetool.io/xmltogo/
 
 import (
 	"encoding/xml"
 )
+
+
+//   https://cbr.ru/development/SXML/
 
 type ValCurs struct {
 	XMLName xml.Name `xml:"ValCurs"`
