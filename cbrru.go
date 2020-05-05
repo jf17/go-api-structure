@@ -1,5 +1,10 @@
 package cbrru
 
+
+import (
+	"encoding/xml"
+)
+
 type ValCurs struct {
 	XMLName xml.Name `xml:"ValCurs"`
 	Text    string   `xml:",chardata"`
