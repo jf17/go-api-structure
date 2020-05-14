@@ -9,7 +9,7 @@ import (
 
 //   https://cbr.ru/development/SXML/
 
-type ValCurs struct {
+type OneDay struct {
 	XMLName xml.Name `xml:"ValCurs"`
 	Text    string   `xml:",chardata"`
 	Date    string   `xml:"Date,attr"`
