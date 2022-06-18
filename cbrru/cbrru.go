@@ -6,7 +6,6 @@ import (
 	"encoding/xml"
 )
 
-
 //   https://cbr.ru/development/SXML/
 
 type OneDay struct {
@@ -23,7 +22,7 @@ type OneDay struct {
 		Name     string `xml:"Name"`
 		Value    string `xml:"Value"`
 	} `xml:"Valute"`
-} 
+}
 
 type RangeOfDays struct {
 	XMLName    xml.Name `xml:"ValCurs"`
@@ -39,5 +38,4 @@ type RangeOfDays struct {
 		Nominal string `xml:"Nominal"`
 		Value   string `xml:"Value"`
 	} `xml:"Record"`
-} 
-
+}
