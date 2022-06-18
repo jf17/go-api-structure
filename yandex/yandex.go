@@ -13,14 +13,14 @@ type TrainSchedule struct {
 		ExceptDays string `json:"except_days"`
 		Arrival    string `json:"arrival"`
 		From       struct {
-			Code            string      `json:"code"`
-			Title           string      `json:"title"`
-			StationType     string      `json:"station_type"`
-			PopularTitle    interface{} `json:"popular_title"`
-			ShortTitle      interface{} `json:"short_title"`
-			TransportType   string      `json:"transport_type"`
-			StationTypeName string      `json:"station_type_name"`
-			Type            string      `json:"type"`
+			Code            string `json:"code"`
+			Title           string `json:"title"`
+			StationType     string `json:"station_type"`
+			PopularTitle    string `json:"popular_title"`
+			ShortTitle      string `json:"short_title"`
+			TransportType   string `json:"transport_type"`
+			StationTypeName string `json:"station_type_name"`
+			Type            string `json:"type"`
 		} `json:"from"`
 		Thread struct {
 			UID              string `json:"uid"`
@@ -51,7 +51,7 @@ type TrainSchedule struct {
 				Code  string `json:"code"`
 				Title string `json:"title"`
 			} `json:"transport_subtype"`
-			ExpressType interface{} `json:"express_type"`
+			ExpressType string `json:"express_type"`
 		} `json:"thread"`
 		DeparturePlatform string `json:"departure_platform"`
 		Departure         string `json:"departure"`
@@ -74,7 +74,7 @@ type TrainSchedule struct {
 		ArrivalPlatform   string      `json:"arrival_platform"`
 	} `json:"segments"`
 	Search struct {
-		Date interface{} `json:"date"`
+		Date string `json:"date"`
 		To   struct {
 			Code         string `json:"code"`
 			Type         string `json:"type"`
@@ -83,14 +83,14 @@ type TrainSchedule struct {
 			Title        string `json:"title"`
 		} `json:"to"`
 		From struct {
-			Code            string      `json:"code"`
-			Title           string      `json:"title"`
-			StationType     string      `json:"station_type"`
-			PopularTitle    interface{} `json:"popular_title"`
-			ShortTitle      interface{} `json:"short_title"`
-			TransportType   string      `json:"transport_type"`
-			StationTypeName string      `json:"station_type_name"`
-			Type            string      `json:"type"`
+			Code            string `json:"code"`
+			Title           string `json:"title"`
+			StationType     string `json:"station_type"`
+			PopularTitle    string `json:"popular_title"`
+			ShortTitle      string `json:"short_title"`
+			TransportType   string `json:"transport_type"`
+			StationTypeName string `json:"station_type_name"`
+			Type            string `json:"type"`
 		} `json:"from"`
 	} `json:"search"`
 }
